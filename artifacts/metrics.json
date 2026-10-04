@@ -1,0 +1,268 @@
+{
+  "accuracy": 0.9166666666666666,
+  "report": {
+    "early_blight": {
+      "precision": 0.9137931034482759,
+      "recall": 0.8833333333333333,
+      "f1-score": 0.8983050847457628,
+      "support": 60.0
+    },
+    "healthy": {
+      "precision": 0.9344262295081968,
+      "recall": 0.95,
+      "f1-score": 0.9421487603305785,
+      "support": 60.0
+    },
+    "septoria": {
+      "precision": 0.8769230769230769,
+      "recall": 0.95,
+      "f1-score": 0.912,
+      "support": 60.0
+    },
+    "spider_mites": {
+      "precision": 0.9464285714285714,
+      "recall": 0.8833333333333333,
+      "f1-score": 0.9137931034482759,
+      "support": 60.0
+    },
+    "accuracy": 0.9166666666666666,
+    "macro avg": {
+      "precision": 0.9178927453270302,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9165617371311543,
+      "support": 240.0
+    },
+    "weighted avg": {
+      "precision": 0.9178927453270302,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9165617371311543,
+      "support": 240.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      53,
+      0,
+      5,
+      2
+    ],
+    [
+      2,
+      57,
+      0,
+      1
+    ],
+    [
+      1,
+      2,
+      57,
+      0
+    ],
+    [
+      2,
+      2,
+      3,
+      53
+    ]
+  ],
+  "labels": [
+    "early_blight",
+    "healthy",
+    "septoria",
+    "spider_mites"
+  ],
+  "selected_model": "rbf_svm",
+  "validation_macro_f1": {
+    "random_forest": 0.8585277561671649,
+    "rbf_svm": 0.8916268770310594
+  },
+  "validation": {
+    "accuracy": 0.8916666666666667,
+    "report": {
+      "early_blight": {
+        "precision": 0.8709677419354839,
+        "recall": 0.9,
+        "f1-score": 0.8852459016393442,
+        "support": 60.0
+      },
+      "healthy": {
+        "precision": 0.8615384615384616,
+        "recall": 0.9333333333333333,
+        "f1-score": 0.896,
+        "support": 60.0
+      },
+      "septoria": {
+        "precision": 0.9272727272727272,
+        "recall": 0.85,
+        "f1-score": 0.8869565217391304,
+        "support": 60.0
+      },
+      "spider_mites": {
+        "precision": 0.9137931034482759,
+        "recall": 0.8833333333333333,
+        "f1-score": 0.8983050847457628,
+        "support": 60.0
+      },
+      "accuracy": 0.8916666666666667,
+      "macro avg": {
+        "precision": 0.8933930085487372,
+        "recall": 0.8916666666666667,
+        "f1-score": 0.8916268770310594,
+        "support": 240.0
+      },
+      "weighted avg": {
+        "precision": 0.893393008548737,
+        "recall": 0.8916666666666667,
+        "f1-score": 0.8916268770310594,
+        "support": 240.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        54,
+        1,
+        4,
+        1
+      ],
+      [
+        0,
+        56,
+        0,
+        4
+      ],
+      [
+        7,
+        2,
+        51,
+        0
+      ],
+      [
+        1,
+        6,
+        0,
+        53
+      ]
+    ],
+    "labels": [
+      "early_blight",
+      "healthy",
+      "septoria",
+      "spider_mites"
+    ]
+  },
+  "pest_detector": {
+    "accuracy": 0.9583333333333334,
+    "report": {
+      "0": {
+        "precision": 0.9775280898876404,
+        "recall": 0.9666666666666667,
+        "f1-score": 0.9720670391061452,
+        "support": 180.0
+      },
+      "1": {
+        "precision": 0.9032258064516129,
+        "recall": 0.9333333333333333,
+        "f1-score": 0.9180327868852459,
+        "support": 60.0
+      },
+      "accuracy": 0.9583333333333334,
+      "macro avg": {
+        "precision": 0.9403769481696267,
+        "recall": 0.95,
+        "f1-score": 0.9450499129956955,
+        "support": 240.0
+      },
+      "weighted avg": {
+        "precision": 0.9589525190286335,
+        "recall": 0.9583333333333334,
+        "f1-score": 0.9585584760509204,
+        "support": 240.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        174,
+        6
+      ],
+      [
+        4,
+        56
+      ]
+    ],
+    "labels": [
+      0,
+      1
+    ]
+  },
+  "confidence_policy": {
+    "selection_basis": "Lowest tested threshold reaching at least 95% selective accuracy on validation after pest-model agreement.",
+    "validation": {
+      "temperature_scaling": false,
+      "temperature": null,
+      "threshold": 0.75,
+      "above_threshold_count": 214,
+      "below_threshold_count": 26,
+      "accepted_after_pest_agreement_count": 213,
+      "accepted_after_pest_agreement_accuracy": 0.9577464788732394,
+      "multiclass_brier_score": 0.1312802139328883,
+      "negative_log_likelihood": 0.21432899456648227,
+      "ece_10_equal_width_bins": 0.039653189926513406,
+      "note": "Post-hoc held-out evaluation. SVC probability=True uses internal Platt scaling; no temperature scaling or external field calibration."
+    },
+    "test": {
+      "temperature_scaling": false,
+      "temperature": null,
+      "threshold": 0.75,
+      "above_threshold_count": 220,
+      "below_threshold_count": 20,
+      "accepted_after_pest_agreement_count": 220,
+      "accepted_after_pest_agreement_accuracy": 0.9545454545454546,
+      "multiclass_brier_score": 0.12349033764086487,
+      "negative_log_likelihood": 0.23201875209338557,
+      "ece_10_equal_width_bins": 0.03994078528148559,
+      "note": "Post-hoc held-out evaluation. SVC probability=True uses internal Platt scaling; no temperature scaling or external field calibration."
+    }
+  },
+  "source_counts": {
+    "early_blight": 1000,
+    "septoria": 1771,
+    "spider_mites": 1676,
+    "healthy": 1591
+  },
+  "downloaded": 1600,
+  "duplicates_removed": 0,
+  "rejected_images": [],
+  "split_counts": {
+    "train": {
+      "early_blight": 280,
+      "healthy": 280,
+      "septoria": 280,
+      "spider_mites": 280
+    },
+    "validation": {
+      "early_blight": 60,
+      "septoria": 60,
+      "healthy": 60,
+      "spider_mites": 60
+    },
+    "test": {
+      "spider_mites": 60,
+      "healthy": 60,
+      "septoria": 60,
+      "early_blight": 60
+    }
+  },
+  "evaluated_rows": {
+    "train": 2240,
+    "validation": 240,
+    "test": 240
+  },
+  "seed": 42,
+  "confidence_note": "Model probability estimate, not a verified diagnostic certainty. No field calibration study.",
+  "limitations": [
+    "Controlled-background tomato leaves only.",
+    "Pixel duplicates removed; visually similar leaves may remain.",
+    "Pest detector recognizes mite damage, not insect species or bounding boxes.",
+    "Image-level holdout; no plant identity metadata or external field evaluation."
+  ]
+}

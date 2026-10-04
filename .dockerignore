@@ -1,0 +1,11 @@
+.venv
+__pycache__
+.pytest_cache
+.report-work
+data/raw
+data/source_index.json
+*.log
+*.docx
+tests
+docs
+artifacts/.mplcache

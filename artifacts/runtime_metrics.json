@@ -1,0 +1,29 @@
+{
+  "measurement": "Flask test client, complete /api/analyze request including decode, preprocessing, feature extraction, both models, reasoning, PNG encoding and JSON serialization",
+  "cold_start_ms": 2715.6981000007363,
+  "samples": 20,
+  "images": 4,
+  "iterations_per_image": 5,
+  "mean_ms": 21.331514998018974,
+  "median_ms": 19.54394999484066,
+  "p95_ms": 34.36859999783337,
+  "min_ms": 15.085199993336573,
+  "max_ms": 37.3299000057159,
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 124 Stepping 0, AuthenticAMD",
+  "logical_cpu_count": 12,
+  "gpu_used": false,
+  "ram_usage": null,
+  "vram_usage": null,
+  "model_file_bytes": 169104,
+  "libraries": {
+    "Flask": "3.1.3",
+    "scikit-learn": "1.9.1",
+    "scikit-image": "0.26.0",
+    "opencv-python-headless": "5.0.0.93",
+    "numpy": "2.5.3",
+    "Pillow": "12.3.0",
+    "joblib": "1.6.0"
+  }
+}

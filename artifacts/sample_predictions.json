@@ -1,0 +1,34 @@
+[
+  {
+    "path": "data/raw/early_blight/fbb79594-419e-4bb7-9afa-6b9c0ba89033___RS_Erly.B 7644.JPG",
+    "actual": "early_blight",
+    "predicted": "early_blight",
+    "confidence": 0.9999975200082976,
+    "pest_probability": 0.0007103300000416155,
+    "selection": "Highest-confidence correct test prediction with multiclass/binary agreement; excluded from model selection."
+  },
+  {
+    "path": "data/raw/healthy/fc1e8e1c-5939-4ad9-b87e-2cbb77cef418___RS_HL 0536.JPG",
+    "actual": "healthy",
+    "predicted": "healthy",
+    "confidence": 0.9999345346782683,
+    "pest_probability": 0.000502093279888063,
+    "selection": "Highest-confidence correct test prediction with multiclass/binary agreement; excluded from model selection."
+  },
+  {
+    "path": "data/raw/septoria/4f45a4b4-342b-4422-87b9-8386a6801ba1___JR_Sept.L.S 2566.JPG",
+    "actual": "septoria",
+    "predicted": "septoria",
+    "confidence": 0.9999996271526844,
+    "pest_probability": 5.497996290716044e-06,
+    "selection": "Highest-confidence correct test prediction with multiclass/binary agreement; excluded from model selection."
+  },
+  {
+    "path": "data/raw/spider_mites/4ad85b66-43f0-476f-aee4-a320e793a42f___Com.G_SpM_FL 8645.JPG",
+    "actual": "spider_mites",
+    "predicted": "spider_mites",
+    "confidence": 0.9999999098691312,
+    "pest_probability": 0.9999812055557435,
+    "selection": "Highest-confidence correct test prediction with multiclass/binary agreement; excluded from model selection."
+  }
+]

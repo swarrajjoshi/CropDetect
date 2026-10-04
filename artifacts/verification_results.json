@@ -1,0 +1,312 @@
+{
+  "passed": true,
+  "checks_total": 39,
+  "checks_passed": 39,
+  "real_images_tested": 20,
+  "real_image_accuracy_for_smoke_subset": 0.85,
+  "prediction_counts": {
+    "septoria": 5,
+    "spider_mites": 5,
+    "healthy": 6,
+    "early_blight": 4
+  },
+  "predictions": [
+    {
+      "actual": "spider_mites",
+      "predicted": "septoria",
+      "confidence": 0.4822585256774782
+    },
+    {
+      "actual": "spider_mites",
+      "predicted": "spider_mites",
+      "confidence": 0.990974263387795
+    },
+    {
+      "actual": "spider_mites",
+      "predicted": "spider_mites",
+      "confidence": 0.9870235496219243
+    },
+    {
+      "actual": "spider_mites",
+      "predicted": "spider_mites",
+      "confidence": 0.9827109801060092
+    },
+    {
+      "actual": "spider_mites",
+      "predicted": "spider_mites",
+      "confidence": 0.9955903437578504
+    },
+    {
+      "actual": "healthy",
+      "predicted": "healthy",
+      "confidence": 0.9913141799576616
+    },
+    {
+      "actual": "healthy",
+      "predicted": "healthy",
+      "confidence": 0.9510550109536005
+    },
+    {
+      "actual": "healthy",
+      "predicted": "healthy",
+      "confidence": 0.9992073327521159
+    },
+    {
+      "actual": "healthy",
+      "predicted": "healthy",
+      "confidence": 0.9489902761081336
+    },
+    {
+      "actual": "healthy",
+      "predicted": "healthy",
+      "confidence": 0.9783769265381195
+    },
+    {
+      "actual": "septoria",
+      "predicted": "healthy",
+      "confidence": 0.48701497166228597
+    },
+    {
+      "actual": "septoria",
+      "predicted": "septoria",
+      "confidence": 0.8530235079306128
+    },
+    {
+      "actual": "septoria",
+      "predicted": "septoria",
+      "confidence": 0.9868454551003828
+    },
+    {
+      "actual": "septoria",
+      "predicted": "septoria",
+      "confidence": 0.9942761592370003
+    },
+    {
+      "actual": "septoria",
+      "predicted": "septoria",
+      "confidence": 0.9955656414889822
+    },
+    {
+      "actual": "early_blight",
+      "predicted": "early_blight",
+      "confidence": 0.768937587251355
+    },
+    {
+      "actual": "early_blight",
+      "predicted": "spider_mites",
+      "confidence": 0.4931759569444049
+    },
+    {
+      "actual": "early_blight",
+      "predicted": "early_blight",
+      "confidence": 0.9995082722127532
+    },
+    {
+      "actual": "early_blight",
+      "predicted": "early_blight",
+      "confidence": 0.999390580296026
+    },
+    {
+      "actual": "early_blight",
+      "predicted": "early_blight",
+      "confidence": 0.9988635910395689
+    }
+  ],
+  "checks": [
+    {
+      "name": "homepage",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "health",
+      "passed": true,
+      "detail": "{'classes': {'early_blight': 'Tomato Early Blight', 'healthy': 'Tomato Healthy', 'septoria': 'Tomato Septoria Leaf Spot', 'spider_mites': 'Tomato Spider-mite Damage'}, 'model_ready': True, 'status': 'ok'}"
+    },
+    {
+      "name": "metrics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "recommendation:early_blight",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "recommendation:septoria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "recommendation:spider_mites",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "recommendation:healthy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sample-metadata",
+      "passed": true,
+      "detail": "4 rows"
+    },
+    {
+      "name": "sample-image:0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sample-image:1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sample-image:2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sample-image:3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "analyze:spider_mites:27eae93a-d090-4c95-9812-366f9b761b72___Com.G_SpM_FL 9279.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "analyze:spider_mites:957e88e1-8803-4ded-a7bc-35144fc25665___Com.G_SpM_FL 9254.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "analyze:spider_mites:74433374-b410-426c-8752-c0e4ea7c9f71___Com.G_SpM_FL 8641.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "analyze:spider_mites:8f53750b-2b3f-4e1c-87ae-dd9659976129___Com.G_SpM_FL 8962.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "analyze:spider_mites:29919d99-e33e-43f0-b313-73eef0221636___Com.G_SpM_FL 1673.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "analyze:healthy:d06e33fb-58bf-440f-9dbc-a1ceec9abaea___GH_HL Leaf 383.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "analyze:healthy:16ed4e23-5218-4e8b-85df-86a7069a675d___GH_HL Leaf 519.1.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "analyze:healthy:13e0d497-f5fc-4fb9-9e9a-cb77bc330730___RS_HL 0397.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "analyze:healthy:59cc3bec-c66b-43f7-a445-42af2d7be410___GH_HL Leaf 476.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "analyze:healthy:4b696198-bb02-426d-bcbd-cc00177a0fb7___RS_HL 0093.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "analyze:septoria:b49c2ffd-6fa4-4ab8-8458-f4cc444c1325___Matt.S_CG 6007.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "analyze:septoria:40705363-7a06-44d7-a4ff-a3b040ca6e70___Matt.S_CG 7683.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "analyze:septoria:548506b9-119b-47a9-b5c6-7c13abb7887b___Keller.St_CG 1811.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "analyze:septoria:dea10aaf-fc64-4dad-b553-568a8581a30d___Matt.S_CG 0688.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "analyze:septoria:14af00c3-f76a-4789-b58b-049bbf8ea6a6___JR_Sept.L.S 2633.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "analyze:early_blight:4d8cce21-a64f-4953-8c56-218f1611ed29___RS_Erly.B 7372.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "analyze:early_blight:3b0f2e65-0005-4b3a-b63c-4ec99b3b92e5___RS_Erly.B 8227.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "analyze:early_blight:2165f0a3-1265-491d-ad8a-e53102a87e9b___RS_Erly.B 9376.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "analyze:early_blight:d8754b7f-53a4-4e69-8f54-1ec9f7581799___RS_Erly.B 6436.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "analyze:early_blight:abb2b25f-a1a8-49c7-8bc9-a66dc224481d___RS_Erly.B 9573.JPG",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "accepted-format:png",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "accepted-format:webp",
+      "passed": true,
+      "detail": "200"
+    },
+    {
+      "name": "reject:missing-file",
+      "passed": true,
+      "detail": "400"
+    },
+    {
+      "name": "reject:corrupt-jpeg",
+      "passed": true,
+      "detail": "400"
+    },
+    {
+      "name": "reject:unsupported-gif",
+      "passed": true,
+      "detail": "400"
+    },
+    {
+      "name": "reject:blank-image",
+      "passed": true,
+      "detail": "400"
+    },
+    {
+      "name": "reject:oversized-upload",
+      "passed": true,
+      "detail": "413"
+    }
+  ]
+}
